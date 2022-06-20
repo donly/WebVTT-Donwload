@@ -1,0 +1,25 @@
+:root {
+    color-scheme: light dark;
+}
+body {
+    padding: 10px;
+    font-family: system-ui;
+    text-align: center;
+}
+button {
+    width: 88px;
+    height: 44px;
+    border-radius: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px;
+}
+
+#result-text {
+    font-size: 12px;
+}

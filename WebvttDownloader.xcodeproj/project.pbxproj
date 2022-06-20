@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6216649285457D500081AA1 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216648285457D500081AA1 /* DownloadManager.swift */; };
+		A621664A285457D500081AA1 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216648285457D500081AA1 /* DownloadManager.swift */; };
+		A621664B285457D500081AA1 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216648285457D500081AA1 /* DownloadManager.swift */; };
+		A621664C285457D500081AA1 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216648285457D500081AA1 /* DownloadManager.swift */; };
+		AF2F665C285985D8003407CA /* Pantomime in Frameworks */ = {isa = PBXBuildFile; productRef = AF2F665B285985D8003407CA /* Pantomime */; };
+		AF32F18828502C380013E351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32F18728502C380013E351 /* AppDelegate.swift */; };
+		AF32F18A28502C380013E351 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32F18928502C380013E351 /* SceneDelegate.swift */; };
+		AF32F18D28502C380013E351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF32F18B28502C380013E351 /* LaunchScreen.storyboard */; };
+		AF32F19028502C380013E351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF32F18E28502C380013E351 /* Main.storyboard */; };
+		AF32F19928502C380013E351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32F19828502C380013E351 /* AppDelegate.swift */; };
+		AF32F19C28502C380013E351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF32F19A28502C380013E351 /* Main.storyboard */; };
+		AF32F1A328502C380013E351 /* WebVTTDownload Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AF32F1A228502C380013E351 /* WebVTTDownload Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF32F1AD28502C380013E351 /* WebVTTDownloa Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AF32F1AC28502C380013E351 /* WebVTTDownloa Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF32F1B328502C380013E351 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = AF32F16E28502C360013E351 /* Main.html */; };
+		AF32F1B428502C380013E351 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = AF32F16E28502C360013E351 /* Main.html */; };
+		AF32F1B528502C380013E351 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17028502C360013E351 /* Icon.png */; };
+		AF32F1B628502C380013E351 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17028502C360013E351 /* Icon.png */; };
+		AF32F1B728502C380013E351 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17128502C360013E351 /* Style.css */; };
+		AF32F1B828502C380013E351 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17128502C360013E351 /* Style.css */; };
+		AF32F1B928502C380013E351 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17228502C360013E351 /* Script.js */; };
+		AF32F1BA28502C380013E351 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17228502C360013E351 /* Script.js */; };
+		AF32F1BB28502C380013E351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32F17328502C360013E351 /* ViewController.swift */; };
+		AF32F1BC28502C380013E351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32F17328502C360013E351 /* ViewController.swift */; };
+		AF32F1BD28502C380013E351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17428502C380013E351 /* Assets.xcassets */; };
+		AF32F1BE28502C380013E351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17428502C380013E351 /* Assets.xcassets */; };
+		AF32F1BF28502C380013E351 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32F17628502C380013E351 /* SafariWebExtensionHandler.swift */; };
+		AF32F1C028502C380013E351 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32F17628502C380013E351 /* SafariWebExtensionHandler.swift */; };
+		AF32F1C128502C380013E351 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17828502C380013E351 /* _locales */; };
+		AF32F1C228502C380013E351 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17828502C380013E351 /* _locales */; };
+		AF32F1C328502C380013E351 /* images in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17928502C380013E351 /* images */; };
+		AF32F1C428502C380013E351 /* images in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17928502C380013E351 /* images */; };
+		AF32F1C528502C380013E351 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17A28502C380013E351 /* manifest.json */; };
+		AF32F1C628502C380013E351 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17A28502C380013E351 /* manifest.json */; };
+		AF32F1C728502C380013E351 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17B28502C380013E351 /* background.js */; };
+		AF32F1C828502C380013E351 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17B28502C380013E351 /* background.js */; };
+		AF32F1C928502C380013E351 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17C28502C380013E351 /* content.js */; };
+		AF32F1CA28502C380013E351 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17C28502C380013E351 /* content.js */; };
+		AF32F1CB28502C380013E351 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17D28502C380013E351 /* popup.html */; };
+		AF32F1CC28502C380013E351 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17D28502C380013E351 /* popup.html */; };
+		AF32F1CD28502C380013E351 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17E28502C380013E351 /* popup.css */; };
+		AF32F1CE28502C380013E351 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17E28502C380013E351 /* popup.css */; };
+		AF32F1CF28502C380013E351 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17F28502C380013E351 /* popup.js */; };
+		AF32F1D028502C380013E351 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = AF32F17F28502C380013E351 /* popup.js */; };
+		AF5A194C2852D7290054BAA6 /* LoggerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5A194B2852D7290054BAA6 /* LoggerExt.swift */; };
+		AF5A194D2852D7290054BAA6 /* LoggerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5A194B2852D7290054BAA6 /* LoggerExt.swift */; };
+		AF5A19502852D7780054BAA6 /* LoggerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5A194B2852D7290054BAA6 /* LoggerExt.swift */; };
+		AF5A19512852D7790054BAA6 /* LoggerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5A194B2852D7290054BAA6 /* LoggerExt.swift */; };
+		AF5A19562853139A0054BAA6 /* Pantomime in Frameworks */ = {isa = PBXBuildFile; productRef = AF5A19552853139A0054BAA6 /* Pantomime */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF32F1A428502C380013E351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF32F16828502C360013E351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF32F1A128502C380013E351;
+			remoteInfo = "WebvttDownloader Extension (iOS)";
+		};
+		AF32F1AE28502C380013E351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF32F16828502C360013E351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF32F1AB28502C380013E351;
+			remoteInfo = "WebvttDownloader Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF32F1D628502C380013E351 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF32F1A328502C380013E351 /* WebVTTDownload Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32F1DD28502C380013E351 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF32F1AD28502C380013E351 /* WebVTTDownloa Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A6216648285457D500081AA1 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		AF32F16F28502C360013E351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		AF32F17028502C360013E351 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AF32F17128502C360013E351 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		AF32F17228502C360013E351 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		AF32F17328502C360013E351 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF32F17428502C380013E351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF32F17628502C380013E351 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		AF32F17828502C380013E351 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		AF32F17928502C380013E351 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		AF32F17A28502C380013E351 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		AF32F17B28502C380013E351 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		AF32F17C28502C380013E351 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		AF32F17D28502C380013E351 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		AF32F17E28502C380013E351 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		AF32F17F28502C380013E351 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		AF32F18428502C380013E351 /* WebvttDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebvttDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF32F18728502C380013E351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF32F18928502C380013E351 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF32F18C28502C380013E351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF32F18F28502C380013E351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF32F19128502C380013E351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF32F19628502C380013E351 /* WebVTTDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebVTTDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF32F19828502C380013E351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF32F19B28502C380013E351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF32F19D28502C380013E351 /* WebvttDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebvttDownloader.entitlements; sourceTree = "<group>"; };
+		AF32F1A228502C380013E351 /* WebVTTDownload Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WebVTTDownload Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF32F1A728502C380013E351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF32F1AC28502C380013E351 /* WebVTTDownloa Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WebVTTDownloa Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF32F1B128502C380013E351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF32F1B228502C380013E351 /* WebvttDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebvttDownloader.entitlements; sourceTree = "<group>"; };
+		AF32F1E7285048220013E351 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AF5A194B2852D7290054BAA6 /* LoggerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerExt.swift; sourceTree = "<group>"; };
+		AF5A19532853136B0054BAA6 /* Pantomime */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Pantomime; path = ../../Github/Pantomime; sourceTree = "<group>"; };
+		AF682430285C312800844C7D /* WebvttDownloader--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WebvttDownloader--macOS--Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF32F18128502C380013E351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32F19328502C380013E351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32F19F28502C380013E351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2F665C285985D8003407CA /* Pantomime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32F1A928502C380013E351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5A19562853139A0054BAA6 /* Pantomime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF32F16728502C360013E351 = {
+			isa = PBXGroup;
+			children = (
+				AF682430285C312800844C7D /* WebvttDownloader--macOS--Info.plist */,
+				AF5A19522853136B0054BAA6 /* Packages */,
+				AF32F16C28502C360013E351 /* Shared (App) */,
+				AF32F17528502C380013E351 /* Shared (Extension) */,
+				AF32F18628502C380013E351 /* iOS (App) */,
+				AF32F19728502C380013E351 /* macOS (App) */,
+				AF32F1A628502C380013E351 /* iOS (Extension) */,
+				AF32F1B028502C380013E351 /* macOS (Extension) */,
+				AF32F1E6285048220013E351 /* Frameworks */,
+				AF32F18528502C380013E351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF32F16C28502C360013E351 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AF32F17328502C360013E351 /* ViewController.swift */,
+				AF32F17428502C380013E351 /* Assets.xcassets */,
+				AF32F16D28502C360013E351 /* Resources */,
+				AF5A194B2852D7290054BAA6 /* LoggerExt.swift */,
+				A6216648285457D500081AA1 /* DownloadManager.swift */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		AF32F16D28502C360013E351 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF32F16E28502C360013E351 /* Main.html */,
+				AF32F17028502C360013E351 /* Icon.png */,
+				AF32F17128502C360013E351 /* Style.css */,
+				AF32F17228502C360013E351 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AF32F17528502C380013E351 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AF32F17628502C380013E351 /* SafariWebExtensionHandler.swift */,
+				AF32F17728502C380013E351 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		AF32F17728502C380013E351 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF32F17828502C380013E351 /* _locales */,
+				AF32F17928502C380013E351 /* images */,
+				AF32F17A28502C380013E351 /* manifest.json */,
+				AF32F17B28502C380013E351 /* background.js */,
+				AF32F17C28502C380013E351 /* content.js */,
+				AF32F17D28502C380013E351 /* popup.html */,
+				AF32F17E28502C380013E351 /* popup.css */,
+				AF32F17F28502C380013E351 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AF32F18528502C380013E351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF32F18428502C380013E351 /* WebvttDownloader.app */,
+				AF32F19628502C380013E351 /* WebVTTDownload.app */,
+				AF32F1A228502C380013E351 /* WebVTTDownload Extension.appex */,
+				AF32F1AC28502C380013E351 /* WebVTTDownloa Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF32F18628502C380013E351 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AF32F18728502C380013E351 /* AppDelegate.swift */,
+				AF32F18928502C380013E351 /* SceneDelegate.swift */,
+				AF32F18B28502C380013E351 /* LaunchScreen.storyboard */,
+				AF32F18E28502C380013E351 /* Main.storyboard */,
+				AF32F19128502C380013E351 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		AF32F19728502C380013E351 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AF32F19828502C380013E351 /* AppDelegate.swift */,
+				AF32F19A28502C380013E351 /* Main.storyboard */,
+				AF32F19D28502C380013E351 /* WebvttDownloader.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		AF32F1A628502C380013E351 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AF32F1A728502C380013E351 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		AF32F1B028502C380013E351 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AF32F1B128502C380013E351 /* Info.plist */,
+				AF32F1B228502C380013E351 /* WebvttDownloader.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		AF32F1E6285048220013E351 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF32F1E7285048220013E351 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF5A19522853136B0054BAA6 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AF5A19532853136B0054BAA6 /* Pantomime */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF32F18328502C380013E351 /* WebvttDownloader (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF32F1D728502C380013E351 /* Build configuration list for PBXNativeTarget "WebvttDownloader (iOS)" */;
+			buildPhases = (
+				AF32F18028502C380013E351 /* Sources */,
+				AF32F18128502C380013E351 /* Frameworks */,
+				AF32F18228502C380013E351 /* Resources */,
+				AF32F1D628502C380013E351 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF32F1A528502C380013E351 /* PBXTargetDependency */,
+			);
+			name = "WebvttDownloader (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "WebvttDownloader (iOS)";
+			productReference = AF32F18428502C380013E351 /* WebvttDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF32F19528502C380013E351 /* WebvttDownloader (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF32F1DE28502C380013E351 /* Build configuration list for PBXNativeTarget "WebvttDownloader (macOS)" */;
+			buildPhases = (
+				AF32F19228502C380013E351 /* Sources */,
+				AF32F19328502C380013E351 /* Frameworks */,
+				AF32F19428502C380013E351 /* Resources */,
+				AF32F1DD28502C380013E351 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF32F1AF28502C380013E351 /* PBXTargetDependency */,
+			);
+			name = "WebvttDownloader (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "WebvttDownloader (macOS)";
+			productReference = AF32F19628502C380013E351 /* WebVTTDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF32F1A128502C380013E351 /* WebvttDownloader Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF32F1D328502C380013E351 /* Build configuration list for PBXNativeTarget "WebvttDownloader Extension (iOS)" */;
+			buildPhases = (
+				AF32F19E28502C380013E351 /* Sources */,
+				AF32F19F28502C380013E351 /* Frameworks */,
+				AF32F1A028502C380013E351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebvttDownloader Extension (iOS)";
+			packageProductDependencies = (
+				AF2F665B285985D8003407CA /* Pantomime */,
+			);
+			productName = "WebvttDownloader Extension (iOS)";
+			productReference = AF32F1A228502C380013E351 /* WebVTTDownload Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AF32F1AB28502C380013E351 /* WebvttDownloader Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF32F1DA28502C380013E351 /* Build configuration list for PBXNativeTarget "WebvttDownloader Extension (macOS)" */;
+			buildPhases = (
+				AF32F1A828502C380013E351 /* Sources */,
+				AF32F1A928502C380013E351 /* Frameworks */,
+				AF32F1AA28502C380013E351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebvttDownloader Extension (macOS)";
+			packageProductDependencies = (
+				AF5A19552853139A0054BAA6 /* Pantomime */,
+			);
+			productName = "WebvttDownloader Extension (macOS)";
+			productReference = AF32F1AC28502C380013E351 /* WebVTTDownloa Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF32F16828502C360013E351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = PROPGM.COM;
+				TargetAttributes = {
+					AF32F18328502C380013E351 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AF32F19528502C380013E351 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AF32F1A128502C380013E351 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AF32F1AB28502C380013E351 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AF32F16B28502C360013E351 /* Build configuration list for PBXProject "WebvttDownloader" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF32F16728502C360013E351;
+			packageReferences = (
+				AF5A19542853139A0054BAA6 /* XCRemoteSwiftPackageReference "Pantomime" */,
+			);
+			productRefGroup = AF32F18528502C380013E351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF32F18328502C380013E351 /* WebvttDownloader (iOS) */,
+				AF32F19528502C380013E351 /* WebvttDownloader (macOS) */,
+				AF32F1A128502C380013E351 /* WebvttDownloader Extension (iOS) */,
+				AF32F1AB28502C380013E351 /* WebvttDownloader Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF32F18228502C380013E351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF32F1B528502C380013E351 /* Icon.png in Resources */,
+				AF32F18D28502C380013E351 /* LaunchScreen.storyboard in Resources */,
+				AF32F1B328502C380013E351 /* Main.html in Resources */,
+				AF32F1B928502C380013E351 /* Script.js in Resources */,
+				AF32F1BD28502C380013E351 /* Assets.xcassets in Resources */,
+				AF32F19028502C380013E351 /* Main.storyboard in Resources */,
+				AF32F1B728502C380013E351 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32F19428502C380013E351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF32F1B628502C380013E351 /* Icon.png in Resources */,
+				AF32F1B828502C380013E351 /* Style.css in Resources */,
+				AF32F19C28502C380013E351 /* Main.storyboard in Resources */,
+				AF32F1BA28502C380013E351 /* Script.js in Resources */,
+				AF32F1BE28502C380013E351 /* Assets.xcassets in Resources */,
+				AF32F1B428502C380013E351 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32F1A028502C380013E351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF32F1C728502C380013E351 /* background.js in Resources */,
+				AF32F1CD28502C380013E351 /* popup.css in Resources */,
+				AF32F1CB28502C380013E351 /* popup.html in Resources */,
+				AF32F1C328502C380013E351 /* images in Resources */,
+				AF32F1C528502C380013E351 /* manifest.json in Resources */,
+				AF32F1C128502C380013E351 /* _locales in Resources */,
+				AF32F1C928502C380013E351 /* content.js in Resources */,
+				AF32F1CF28502C380013E351 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32F1AA28502C380013E351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF32F1C828502C380013E351 /* background.js in Resources */,
+				AF32F1CE28502C380013E351 /* popup.css in Resources */,
+				AF32F1CC28502C380013E351 /* popup.html in Resources */,
+				AF32F1C428502C380013E351 /* images in Resources */,
+				AF32F1C628502C380013E351 /* manifest.json in Resources */,
+				AF32F1C228502C380013E351 /* _locales in Resources */,
+				AF32F1CA28502C380013E351 /* content.js in Resources */,
+				AF32F1D028502C380013E351 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF32F18028502C380013E351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF32F1BB28502C380013E351 /* ViewController.swift in Sources */,
+				A6216649285457D500081AA1 /* DownloadManager.swift in Sources */,
+				AF32F18828502C380013E351 /* AppDelegate.swift in Sources */,
+				AF32F18A28502C380013E351 /* SceneDelegate.swift in Sources */,
+				AF5A194C2852D7290054BAA6 /* LoggerExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32F19228502C380013E351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF32F1BC28502C380013E351 /* ViewController.swift in Sources */,
+				AF5A194D2852D7290054BAA6 /* LoggerExt.swift in Sources */,
+				AF32F19928502C380013E351 /* AppDelegate.swift in Sources */,
+				A621664A285457D500081AA1 /* DownloadManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32F19E28502C380013E351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF32F1BF28502C380013E351 /* SafariWebExtensionHandler.swift in Sources */,
+				A621664B285457D500081AA1 /* DownloadManager.swift in Sources */,
+				AF5A19502852D7780054BAA6 /* LoggerExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32F1A828502C380013E351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF32F1C028502C380013E351 /* SafariWebExtensionHandler.swift in Sources */,
+				A621664C285457D500081AA1 /* DownloadManager.swift in Sources */,
+				AF5A19512852D7790054BAA6 /* LoggerExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF32F1A528502C380013E351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF32F1A128502C380013E351 /* WebvttDownloader Extension (iOS) */;
+			targetProxy = AF32F1A428502C380013E351 /* PBXContainerItemProxy */;
+		};
+		AF32F1AF28502C380013E351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF32F1AB28502C380013E351 /* WebvttDownloader Extension (macOS) */;
+			targetProxy = AF32F1AE28502C380013E351 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF32F16E28502C360013E351 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF32F16F28502C360013E351 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		AF32F18B28502C380013E351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF32F18C28502C380013E351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF32F18E28502C380013E351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF32F18F28502C380013E351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF32F19A28502C380013E351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF32F19B28502C380013E351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF32F1D128502C380013E351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF32F1D228502C380013E351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AF32F1D428502C380013E351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WebVTT Download Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.propgm.WebVTTDownload.Extension;
+				PRODUCT_NAME = "WebVTTDownload Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF32F1D528502C380013E351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WebVTT Download Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.propgm.WebVTTDownload.Extension;
+				PRODUCT_NAME = "WebVTTDownload Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF32F1D828502C380013E351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WebvttDownloader (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC7879NQCX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WebVTT Download";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.propgm.WebVTTDownload;
+				PRODUCT_NAME = WebvttDownloader;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF32F1D928502C380013E351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WebvttDownloader (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC7879NQCX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WebVTT Download";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.propgm.WebVTTDownload;
+				PRODUCT_NAME = WebvttDownloader;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF32F1DB28502C380013E351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/WebvttDownloader.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HC7879NQCX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WebVTT Download";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.propgm.WebVTTDownload.Extension;
+				PRODUCT_NAME = "WebVTTDownloa Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF32F1DC28502C380013E351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/WebvttDownloader.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HC7879NQCX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WebVTT Download";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.propgm.WebVTTDownload.Extension;
+				PRODUCT_NAME = "WebVTTDownloa Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AF32F1DF28502C380013E351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/WebvttDownloader.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HC7879NQCX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WebvttDownloader--macOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WebVTT Download";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.propgm.WebVTTDownload;
+				PRODUCT_NAME = WebVTTDownload;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF32F1E028502C380013E351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/WebvttDownloader.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HC7879NQCX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WebvttDownloader--macOS--Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WebVTT Download";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.propgm.WebVTTDownload;
+				PRODUCT_NAME = WebVTTDownload;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF32F16B28502C360013E351 /* Build configuration list for PBXProject "WebvttDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF32F1D128502C380013E351 /* Debug */,
+				AF32F1D228502C380013E351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF32F1D328502C380013E351 /* Build configuration list for PBXNativeTarget "WebvttDownloader Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF32F1D428502C380013E351 /* Debug */,
+				AF32F1D528502C380013E351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF32F1D728502C380013E351 /* Build configuration list for PBXNativeTarget "WebvttDownloader (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF32F1D828502C380013E351 /* Debug */,
+				AF32F1D928502C380013E351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF32F1DA28502C380013E351 /* Build configuration list for PBXNativeTarget "WebvttDownloader Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF32F1DB28502C380013E351 /* Debug */,
+				AF32F1DC28502C380013E351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF32F1DE28502C380013E351 /* Build configuration list for PBXNativeTarget "WebvttDownloader (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF32F1DF28502C380013E351 /* Debug */,
+				AF32F1E028502C380013E351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF5A19542853139A0054BAA6 /* XCRemoteSwiftPackageReference "Pantomime" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/donly/Pantomime";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF2F665B285985D8003407CA /* Pantomime */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Pantomime;
+		};
+		AF5A19552853139A0054BAA6 /* Pantomime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF5A19542853139A0054BAA6 /* XCRemoteSwiftPackageReference "Pantomime" */;
+			productName = Pantomime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF32F16828502C360013E351 /* Project object */;
+}

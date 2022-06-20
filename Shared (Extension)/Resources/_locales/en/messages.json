@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "WebVTT Download",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "This is WebvttDownloader. Download Webvtt and convert to .srt",
+        "description": "Download Web Video Text Tracks (WebVTT) file of WWDC online videos, and convert to .srt file."
+    }
+}
